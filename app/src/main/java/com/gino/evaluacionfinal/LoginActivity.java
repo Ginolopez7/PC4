@@ -69,8 +69,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private boolean isCredentialsValidate(String email, String password) {
-        boolean isEmailOk = !email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches();
-        boolean isPasswordOk = password.length() >=8;
+        boolean isEmailOk = email.equals("ejemploe@idat.com.pe") && Patterns.EMAIL_ADDRESS.matcher(email).matches();
+        boolean isPasswordOk = password.equals("Peru123.");
         return isEmailOk && isPasswordOk;
     }
 }
