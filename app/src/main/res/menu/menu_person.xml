@@ -13,4 +13,8 @@
         android:icon="@drawable/ic_logout"
         android:title="Logout"
         app:showAsAction="ifRoom"/>
+    <item android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favorite"
+        app:showAsAction="ifRoom"/>
 </menu>
