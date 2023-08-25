@@ -58,9 +58,6 @@ public class PrincipalActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.favorite) {
             Snackbar.make(binding.getRoot(), "Favorite", Snackbar.LENGTH_SHORT).show();
             return true;
-        } else if (item.getItemId() == R.id.settings) {
-            Snackbar.make(binding.getRoot(), "Settings", Snackbar.LENGTH_SHORT).show();
-            return true;
         } else if (item.getItemId() == R.id.logout) {
             {
                 // Mostrar cuadro de diálogo de confirmación
