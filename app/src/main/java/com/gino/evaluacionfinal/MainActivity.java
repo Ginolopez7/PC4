@@ -25,5 +25,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
+        binding.btnGetStarted.setOnClickListener(v -> {
+            //Toast.makeText(this, "Comenzar", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
